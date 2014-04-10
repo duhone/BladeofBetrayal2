@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		853880CC0F12FC4B007C3ED7 /* Build ALL */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 853880CF0F12FC4D007C3ED7 /* Build configuration list for PBXAggregateTarget "Build ALL" */;
+			buildPhases = (
+				853880CB0F12FC4B007C3ED7 /* ShellScript */,
+			);
+			dependencies = (
+				853880D30F12FC7E007C3ED7 /* PBXTargetDependency */,
+				853880D10F12FC7B007C3ED7 /* PBXTargetDependency */,
+			);
+			name = "Build ALL";
+			productName = "Build ALL";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		853880FA0F130077007C3ED7 /* HPTInput_Engine.h in Headers */ = {isa = PBXBuildFile; fileRef = 853880F90F130077007C3ED7 /* HPTInput_Engine.h */; };
+		853880FE0F1300CE007C3ED7 /* Input_Engine.h in Headers */ = {isa = PBXBuildFile; fileRef = 853880FC0F1300CE007C3ED7 /* Input_Engine.h */; };
+		853880FF0F1300CE007C3ED7 /* Input_Engine.mm in Sources */ = {isa = PBXBuildFile; fileRef = 853880FD0F1300CE007C3ED7 /* Input_Engine.mm */; };
+		853881460F1301E1007C3ED7 /* Input_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* Input_Prefix.pch */; };
+		853881480F1301E2007C3ED7 /* Input_Engine.mm in Sources */ = {isa = PBXBuildFile; fileRef = 853880FD0F1300CE007C3ED7 /* Input_Engine.mm */; };
+		853881490F1301E4007C3ED7 /* HPTInput_Engine.h in Headers */ = {isa = PBXBuildFile; fileRef = 853880F90F130077007C3ED7 /* HPTInput_Engine.h */; };
+		8538814A0F1301E5007C3ED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		8538814B0F1301EA007C3ED7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		8538814F0F1301FC007C3ED7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		853881500F1301FF007C3ED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		85A528840F13F9BB0073A6DC /* libInput dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A528830F13F9BB0073A6DC /* libInput dev.a */; };
+		85A528850F13F9BB0073A6DC /* libInput dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A528830F13F9BB0073A6DC /* libInput dev.a */; };
+		85A528860F13F9BB0073A6DC /* libInput dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A528830F13F9BB0073A6DC /* libInput dev.a */; };
+		85A5288A0F13F9C90073A6DC /* libInput sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A528890F13F9C90073A6DC /* libInput sim.a */; };
+		85A5288B0F13F9C90073A6DC /* libInput sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A528890F13F9C90073A6DC /* libInput sim.a */; };
+		85A5288C0F13F9C90073A6DC /* libInput sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A528890F13F9C90073A6DC /* libInput sim.a */; };
+		85B87D780F253A1A00DC59F8 /* Input_Analog.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B87D740F253A1A00DC59F8 /* Input_Analog.h */; };
+		85B87D790F253A1A00DC59F8 /* Input_Analog.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85B87D750F253A1A00DC59F8 /* Input_Analog.mm */; };
+		85B87D7A0F253A1A00DC59F8 /* Input_Button.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B87D760F253A1A00DC59F8 /* Input_Button.h */; };
+		85B87D7B0F253A1A00DC59F8 /* Input_Button.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85B87D770F253A1A00DC59F8 /* Input_Button.mm */; };
+		85B87D7C0F253A1A00DC59F8 /* Input_Analog.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B87D740F253A1A00DC59F8 /* Input_Analog.h */; };
+		85B87D7D0F253A1A00DC59F8 /* Input_Analog.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85B87D750F253A1A00DC59F8 /* Input_Analog.mm */; };
+		85B87D7E0F253A1A00DC59F8 /* Input_Button.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B87D760F253A1A00DC59F8 /* Input_Button.h */; };
+		85B87D7F0F253A1A00DC59F8 /* Input_Button.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85B87D770F253A1A00DC59F8 /* Input_Button.mm */; };
+		85B87D800F253A1A00DC59F8 /* Input_Analog.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85B87D750F253A1A00DC59F8 /* Input_Analog.mm */; };
+		85B87D810F253A1A00DC59F8 /* Input_Button.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85B87D770F253A1A00DC59F8 /* Input_Button.mm */; };
+		85B87FC20F2558DA00DC59F8 /* Input_Object.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B87FC00F2558DA00DC59F8 /* Input_Object.h */; };
+		85B87FC30F2558DA00DC59F8 /* Input_Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B87FC10F2558DA00DC59F8 /* Input_Object.cpp */; };
+		85B87FC40F2558DA00DC59F8 /* Input_Object.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B87FC00F2558DA00DC59F8 /* Input_Object.h */; };
+		85B87FC50F2558DA00DC59F8 /* Input_Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B87FC10F2558DA00DC59F8 /* Input_Object.cpp */; };
+		85B87FC60F2558DA00DC59F8 /* Input_Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B87FC10F2558DA00DC59F8 /* Input_Object.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		853880D00F12FC7B007C3ED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853880B30F12FA8A007C3ED7;
+			remoteInfo = "Input sim";
+		};
+		853880D20F12FC7E007C3ED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853880BD0F12FAED007C3ED7;
+			remoteInfo = "Input dev";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32CA4F630368D1EE00C91783 /* Input_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Input_Prefix.pch; sourceTree = "<group>"; };
+		853880B40F12FA8A007C3ED7 /* libInput sim.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libInput sim.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		853880BE0F12FAED007C3ED7 /* libInput dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libInput dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		853880F90F130077007C3ED7 /* HPTInput_Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTInput_Engine.h; sourceTree = "<group>"; };
+		853880FC0F1300CE007C3ED7 /* Input_Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Input_Engine.h; sourceTree = "<group>"; };
+		853880FD0F1300CE007C3ED7 /* Input_Engine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Input_Engine.mm; sourceTree = "<group>"; };
+		85A528830F13F9BB0073A6DC /* libInput dev.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libInput dev.a"; path = "build/Debug-iphoneos/libInput dev.a"; sourceTree = "<group>"; };
+		85A528870F13F9BB0073A6DC /* Input.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Input.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A528890F13F9C90073A6DC /* libInput sim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libInput sim.a"; path = "build/Debug-iphonesimulator/libInput sim.a"; sourceTree = "<group>"; };
+		85B87D740F253A1A00DC59F8 /* Input_Analog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Input_Analog.h; sourceTree = "<group>"; };
+		85B87D750F253A1A00DC59F8 /* Input_Analog.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Input_Analog.mm; sourceTree = "<group>"; };
+		85B87D760F253A1A00DC59F8 /* Input_Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Input_Button.h; sourceTree = "<group>"; };
+		85B87D770F253A1A00DC59F8 /* Input_Button.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Input_Button.mm; sourceTree = "<group>"; };
+		85B87FC00F2558DA00DC59F8 /* Input_Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Input_Object.h; sourceTree = "<group>"; };
+		85B87FC10F2558DA00DC59F8 /* Input_Object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Input_Object.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				85A528860F13F9BB0073A6DC /* libInput dev.a in Frameworks */,
+				85A5288C0F13F9C90073A6DC /* libInput sim.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853880B20F12FA8A007C3ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8538814A0F1301E5007C3ED7 /* Foundation.framework in Frameworks */,
+				8538814B0F1301EA007C3ED7 /* UIKit.framework in Frameworks */,
+				85A528850F13F9BB0073A6DC /* libInput dev.a in Frameworks */,
+				85A5288B0F13F9C90073A6DC /* libInput sim.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853880BC0F12FAED007C3ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8538814F0F1301FC007C3ED7 /* UIKit.framework in Frameworks */,
+				853881500F1301FF007C3ED7 /* Foundation.framework in Frameworks */,
+				85A528840F13F9BB0073A6DC /* libInput dev.a in Frameworks */,
+				85A5288A0F13F9C90073A6DC /* libInput sim.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				85B87D740F253A1A00DC59F8 /* Input_Analog.h */,
+				85B87D750F253A1A00DC59F8 /* Input_Analog.mm */,
+				85B87D760F253A1A00DC59F8 /* Input_Button.h */,
+				85B87D770F253A1A00DC59F8 /* Input_Button.mm */,
+				853880F90F130077007C3ED7 /* HPTInput_Engine.h */,
+				853880FC0F1300CE007C3ED7 /* Input_Engine.h */,
+				853880FD0F1300CE007C3ED7 /* Input_Engine.mm */,
+				85B87FC00F2558DA00DC59F8 /* Input_Object.h */,
+				85B87FC10F2558DA00DC59F8 /* Input_Object.cpp */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				853880B40F12FA8A007C3ED7 /* libInput sim.a */,
+				853880BE0F12FAED007C3ED7 /* libInput dev.a */,
+				85A528870F13F9BB0073A6DC /* Input.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				85A528690F13F8E00073A6DC /* Dist */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Input_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85A528690F13F8E00073A6DC /* Dist */ = {
+			isa = PBXGroup;
+			children = (
+				85A528890F13F9C90073A6DC /* libInput sim.a */,
+				85A528830F13F9BB0073A6DC /* libInput dev.a */,
+			);
+			name = Dist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		853880B00F12FA8A007C3ED7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853881460F1301E1007C3ED7 /* Input_Prefix.pch in Headers */,
+				853881490F1301E4007C3ED7 /* HPTInput_Engine.h in Headers */,
+				85B87D7C0F253A1A00DC59F8 /* Input_Analog.h in Headers */,
+				85B87D7E0F253A1A00DC59F8 /* Input_Button.h in Headers */,
+				85B87FC20F2558DA00DC59F8 /* Input_Object.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853880BA0F12FAED007C3ED7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853880FA0F130077007C3ED7 /* HPTInput_Engine.h in Headers */,
+				853880FE0F1300CE007C3ED7 /* Input_Engine.h in Headers */,
+				85B87D780F253A1A00DC59F8 /* Input_Analog.h in Headers */,
+				85B87D7A0F253A1A00DC59F8 /* Input_Button.h in Headers */,
+				85B87FC40F2558DA00DC59F8 /* Input_Object.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Input */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Input" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Input;
+			productName = Input;
+			productReference = 85A528870F13F9BB0073A6DC /* Input.app */;
+			productType = "com.apple.product-type.application";
+		};
+		853880B30F12FA8A007C3ED7 /* Input sim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853880B90F12FA9C007C3ED7 /* Build configuration list for PBXNativeTarget "Input sim" */;
+			buildPhases = (
+				853880B00F12FA8A007C3ED7 /* Headers */,
+				853880B10F12FA8A007C3ED7 /* Sources */,
+				853880B20F12FA8A007C3ED7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Input sim";
+			productName = "Input sim";
+			productReference = 853880B40F12FA8A007C3ED7 /* libInput sim.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		853880BD0F12FAED007C3ED7 /* Input dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853880C10F12FAF4007C3ED7 /* Build configuration list for PBXNativeTarget "Input dev" */;
+			buildPhases = (
+				853880BA0F12FAED007C3ED7 /* Headers */,
+				853880BB0F12FAED007C3ED7 /* Sources */,
+				853880BC0F12FAED007C3ED7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Input dev";
+			productName = "Input dev";
+			productReference = 853880BE0F12FAED007C3ED7 /* libInput dev.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Input" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Input */,
+				853880B30F12FA8A007C3ED7 /* Input sim */,
+				853880BD0F12FAED007C3ED7 /* Input dev */,
+				853880CC0F12FC4B007C3ED7 /* Build ALL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		853880CB0F12FC4B007C3ED7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# remove existing product lib file, just in case\nrm -rf build/${BUILD_STYLE}-iphoneos/libPseudoFramework-${BUILD_STYLE}.a\n\n# combine lib files for various platforms into one\nlipo -create \"build/${BUILD_STYLE}-iphoneos/libPseudoFramework dev.a\"\\ \n  \"build/${BUILD_STYLE}-iphonesimulator/libPseudoFramework sim.a\"\\ \n  -output build/${BUILD_STYLE}-iphoneos/libPseudoFramework-${BUILD_STYLE}.a";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B87D800F253A1A00DC59F8 /* Input_Analog.mm in Sources */,
+				85B87D810F253A1A00DC59F8 /* Input_Button.mm in Sources */,
+				85B87FC60F2558DA00DC59F8 /* Input_Object.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853880B10F12FA8A007C3ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853881480F1301E2007C3ED7 /* Input_Engine.mm in Sources */,
+				85B87D7D0F253A1A00DC59F8 /* Input_Analog.mm in Sources */,
+				85B87D7F0F253A1A00DC59F8 /* Input_Button.mm in Sources */,
+				85B87FC30F2558DA00DC59F8 /* Input_Object.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853880BB0F12FAED007C3ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853880FF0F1300CE007C3ED7 /* Input_Engine.mm in Sources */,
+				85B87D790F253A1A00DC59F8 /* Input_Analog.mm in Sources */,
+				85B87D7B0F253A1A00DC59F8 /* Input_Button.mm in Sources */,
+				85B87FC50F2558DA00DC59F8 /* Input_Object.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		853880D10F12FC7B007C3ED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853880B30F12FA8A007C3ED7 /* Input sim */;
+			targetProxy = 853880D00F12FC7B007C3ED7 /* PBXContainerItemProxy */;
+		};
+		853880D30F12FC7E007C3ED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853880BD0F12FAED007C3ED7 /* Input dev */;
+			targetProxy = 853880D20F12FC7E007C3ED7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Input_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/build/Debug-iphonesimulator\"",
+				);
+				PRODUCT_NAME = Input;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Input_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/build/Debug-iphonesimulator\"",
+				);
+				PRODUCT_NAME = Input;
+			};
+			name = Release;
+		};
+		853880B50F12FA8A007C3ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/build/Debug-iphonesimulator\"",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Input sim";
+				SDKROOT = iphonesimulator2.2;
+			};
+			name = Debug;
+		};
+		853880B60F12FA8A007C3ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/build/Debug-iphonesimulator\"",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Input sim";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		853880BF0F12FAEE007C3ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug-iphonesimulator\"",
+					"\"$(SRCROOT)/build/Debug-iphoneos\"",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Input dev";
+			};
+			name = Debug;
+		};
+		853880C00F12FAEE007C3ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/build/Debug-iphonesimulator\"",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Input dev";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		853880CD0F12FC4B007C3ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build ALL";
+			};
+			name = Debug;
+		};
+		853880CE0F12FC4B007C3ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build ALL";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Input" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853880B90F12FA9C007C3ED7 /* Build configuration list for PBXNativeTarget "Input sim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853880B50F12FA8A007C3ED7 /* Debug */,
+				853880B60F12FA8A007C3ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853880C10F12FAF4007C3ED7 /* Build configuration list for PBXNativeTarget "Input dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853880BF0F12FAEE007C3ED7 /* Debug */,
+				853880C00F12FAEE007C3ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853880CF0F12FC4D007C3ED7 /* Build configuration list for PBXAggregateTarget "Build ALL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853880CD0F12FC4B007C3ED7 /* Debug */,
+				853880CE0F12FC4B007C3ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Input" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

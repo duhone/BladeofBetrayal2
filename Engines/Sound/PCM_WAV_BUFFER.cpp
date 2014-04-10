@@ -1,0 +1,9 @@
+#include "PCM_WAV_BUFFER.h"
+
+PCM_WAV_BUFFER::PCM_WAV_BUFFER()
+{
+}
+
+PCM_WAV_BUFFER::~PCM_WAV_BUFFER()
+{
+}

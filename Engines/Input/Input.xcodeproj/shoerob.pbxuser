@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Input */ = {
+		activeExec = 0;
+		executables = (
+			85A528880F13F9BB0073A6DC /* Input */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 85A528880F13F9BB0073A6DC /* Input */;
+		activeTarget = 853880B30F12FA8A007C3ED7 /* Input sim */;
+		addToTargets = (
+			853880B30F12FA8A007C3ED7 /* Input sim */,
+			853880BD0F12FAED007C3ED7 /* Input dev */,
+			853880CC0F12FC4B007C3ED7 /* Build ALL */,
+			1D6058900D05DD3D006BFB54 /* Input */,
+		);
+		codeSenseManager = 853880AE0F12F9E0007C3ED7 /* Code sense */;
+		executables = (
+			85A528880F13F9BB0073A6DC /* Input */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					819,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					793,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 254097930;
+			PBXWorkspaceStateSaveDate = 254097930;
+		};
+		perUserProjectItems = {
+			850B85240F1711CD00A7CD4E /* PBXTextBookmark */ = 850B85240F1711CD00A7CD4E /* PBXTextBookmark */;
+			850B85250F1711CD00A7CD4E /* PBXTextBookmark */ = 850B85250F1711CD00A7CD4E /* PBXTextBookmark */;
+			850B85260F1711CD00A7CD4E /* PBXTextBookmark */ = 850B85260F1711CD00A7CD4E /* PBXTextBookmark */;
+			850B85280F1711CD00A7CD4E /* PBXTextBookmark */ = 850B85280F1711CD00A7CD4E /* PBXTextBookmark */;
+			850B852A0F1711CD00A7CD4E /* PBXTextBookmark */ = 850B852A0F1711CD00A7CD4E /* PBXTextBookmark */;
+			850B852D0F1711CD00A7CD4E /* PBXTextBookmark */ = 850B852D0F1711CD00A7CD4E /* PBXTextBookmark */;
+			850B85370F1711CD00A7CD4E /* PBXTextBookmark */ = 850B85370F1711CD00A7CD4E /* PBXTextBookmark */;
+			850B85390F1711CD00A7CD4E /* PBXTextBookmark */ = 850B85390F1711CD00A7CD4E /* PBXTextBookmark */;
+			853880B70F12FA9C007C3ED7 /* PlistBookmark */ = 853880B70F12FA9C007C3ED7 /* PlistBookmark */;
+			8538811E0F130176007C3ED7 /* PBXTextBookmark */ = 8538811E0F130176007C3ED7 /* PBXTextBookmark */;
+			853881210F130176007C3ED7 /* PBXTextBookmark */ = 853881210F130176007C3ED7 /* PBXTextBookmark */;
+			8538812F0F130176007C3ED7 /* PBXTextBookmark */ = 8538812F0F130176007C3ED7 /* PBXTextBookmark */;
+			8538813C0F1301BA007C3ED7 /* PBXTextBookmark */ = 8538813C0F1301BA007C3ED7 /* PBXTextBookmark */;
+			853881980F130AAC007C3ED7 /* PBXTextBookmark */ = 853881980F130AAC007C3ED7 /* PBXTextBookmark */;
+			8538819B0F130AAC007C3ED7 /* PBXTextBookmark */ = 8538819B0F130AAC007C3ED7 /* PBXTextBookmark */;
+			85A5266C0F13BBC20073A6DC /* PBXTextBookmark */ = 85A5266C0F13BBC20073A6DC /* PBXTextBookmark */;
+			85A5266D0F13BBC20073A6DC /* PBXTextBookmark */ = 85A5266D0F13BBC20073A6DC /* PBXTextBookmark */;
+			85A526730F13BBC20073A6DC /* PBXTextBookmark */ = 85A526730F13BBC20073A6DC /* PBXTextBookmark */;
+			85A526A00F13BBC20073A6DC /* PBXTextBookmark */ = 85A526A00F13BBC20073A6DC /* PBXTextBookmark */;
+			85A527C40F13E9980073A6DC /* PBXTextBookmark */ = 85A527C40F13E9980073A6DC /* PBXTextBookmark */;
+			85A527C60F13E9980073A6DC /* PBXTextBookmark */ = 85A527C60F13E9980073A6DC /* PBXTextBookmark */;
+			85A527DB0F13E9980073A6DC /* PBXTextBookmark */ = 85A527DB0F13E9980073A6DC /* PBXTextBookmark */;
+			85A527DE0F13E9980073A6DC /* PBXTextBookmark */ = 85A527DE0F13E9980073A6DC /* PBXTextBookmark */;
+			85A527E00F13E9980073A6DC /* PBXTextBookmark */ = 85A527E00F13E9980073A6DC /* PBXTextBookmark */;
+			85A527E20F13E9980073A6DC /* PBXTextBookmark */ = 85A527E20F13E9980073A6DC /* PBXTextBookmark */;
+			85A528000F13EE4F0073A6DC /* PBXTextBookmark */ = 85A528000F13EE4F0073A6DC /* PBXTextBookmark */;
+			85A528060F13EE4F0073A6DC /* PBXTextBookmark */ = 85A528060F13EE4F0073A6DC /* PBXTextBookmark */;
+			85A528320F13F8040073A6DC /* PBXTextBookmark */ = 85A528320F13F8040073A6DC /* PBXTextBookmark */;
+			85A52C470F143A5B0073A6DC /* PBXTextBookmark */ = 85A52C470F143A5B0073A6DC /* PBXTextBookmark */;
+			85A52C480F143A5B0073A6DC /* PBXTextBookmark */ = 85A52C480F143A5B0073A6DC /* PBXTextBookmark */;
+			85B87FC70F2558EC00DC59F8 /* PBXTextBookmark */ = 85B87FC70F2558EC00DC59F8 /* PBXTextBookmark */;
+			85B87FC80F2558EC00DC59F8 /* PBXTextBookmark */ = 85B87FC80F2558EC00DC59F8 /* PBXTextBookmark */;
+			85B87FC90F2558EC00DC59F8 /* PBXTextBookmark */ = 85B87FC90F2558EC00DC59F8 /* PBXTextBookmark */;
+			85B87FCA0F2558EC00DC59F8 /* PBXTextBookmark */ = 85B87FCA0F2558EC00DC59F8 /* PBXTextBookmark */;
+			85B87FCB0F2558EC00DC59F8 /* PBXTextBookmark */ = 85B87FCB0F2558EC00DC59F8 /* PBXTextBookmark */;
+			85B87FCC0F2558EC00DC59F8 /* PBXTextBookmark */ = 85B87FCC0F2558EC00DC59F8 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 853880AD0F12F9E0007C3ED7 /* Source Control */;
+		userBuildSettings = {
+			OBJROOT = "/Users/shoerob/Documents/Builds/Blade of Betrayal/BoB-Trunk/Engines/Input/build";
+			SYMROOT = "/Users/shoerob/Documents/Builds/Blade of Betrayal/BoB-Trunk/Engines/Input/build";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Input_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 446}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 179}";
+		};
+	};
+	850B85240F1711CD00A7CD4E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8538811F0F130176007C3ED7 /* HPT_Input_Engine.h */;
+		name = "HPT_Input_Engine.h: 13";
+		rLen = 0;
+		rLoc = 452;
+		rType = 0;
+		vrLen = 523;
+		vrLoc = 3213;
+	};
+	850B85250F1711CD00A7CD4E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 853881990F130AAC007C3ED7 /* input_engine.cpp */;
+		name = "input_engine.cpp: 137";
+		rLen = 18;
+		rLoc = 3439;
+		rType = 0;
+		vrLen = 672;
+		vrLoc = 3224;
+	};
+	850B85260F1711CD00A7CD4E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 850B85270F1711CD00A7CD4E /* MenuOption.h */;
+		name = "MenuOption.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 0;
+	};
+	850B85270F1711CD00A7CD4E /* MenuOption.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = MenuOption.h;
+		path = "/Users/shoerob/Documents/Source/Blade of Betrayal/BoB-Zodiak/Blade of Betrayal - Zodiak Edition/BoB/MenuOption.h";
+		sourceTree = "<absolute>";
+	};
+	850B85280F1711CD00A7CD4E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 850B85290F1711CD00A7CD4E /* Menu.h */;
+		name = "Menu.h: 60";
+		rLen = 0;
+		rLoc = 1050;
+		rType = 0;
+		vrLen = 686;
+		vrLoc = 954;
+	};
+	850B85290F1711CD00A7CD4E /* Menu.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Menu.h;
+		path = "/Users/shoerob/Documents/Source/Blade of Betrayal/BoB-Zodiak/Blade of Betrayal - Zodiak Edition/BoB/Menu.h";
+		sourceTree = "<absolute>";
+	};
+	850B852A0F1711CD00A7CD4E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8538819C0F130AAC007C3ED7 /* Game.cpp */;
+		name = "Game.cpp: 3094";
+		rLen = 19;
+		rLoc = 74691;
+		rType = 0;
+		vrLen = 681;
+		vrLoc = 74207;
+	};
+	850B852D0F1711CD00A7CD4E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 853880FD0F1300CE007C3ED7 /* Input_Engine.mm */;
+		name = "Input_Engine.mm: 16";
+		rLen = 24;
+		rLoc = 252;
+		rType = 0;
+		vrLen = 532;
+		vrLoc = 100;
+	};
+	850B85370F1711CD00A7CD4E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 850B85380F1711CD00A7CD4E /* MenuOption.h */;
+		name = "MenuOption.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 0;
+	};
+	850B85380F1711CD00A7CD4E /* MenuOption.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = MenuOption.h;
+		path = "/Users/shoerob/Documents/Source/Blade of Betrayal/BoB-Zodiak/Blade of Betrayal - Zodiak Edition/BoB/MenuOption.h";
+		sourceTree = "<absolute>";
+	};
+	850B85390F1711CD00A7CD4E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 850B853A0F1711CD00A7CD4E /* Menu.h */;
+		name = "Menu.h: 60";
+		rLen = 0;
+		rLoc = 1050;
+		rType = 0;
+		vrLen = 686;
+		vrLoc = 954;
+	};
+	850B853A0F1711CD00A7CD4E /* Menu.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Menu.h;
+		path = "/Users/shoerob/Documents/Source/Blade of Betrayal/BoB-Zodiak/Blade of Betrayal - Zodiak Edition/BoB/Menu.h";
+		sourceTree = "<absolute>";
+	};
+	850B853D0F1711CD00A7CD4E /* Theater.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = Theater.cpp;
+		path = "/Users/shoerob/Documents/Source/Blade of Betrayal/BoB-PocketPC/Blade of Betrayal/BoB/Theater.cpp";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {997, 57036}}";
+			sepNavSelRange = "{1836, 19}";
+			sepNavVisRange = "{1620, 776}";
+		};
+	};
+	853880AD0F12F9E0007C3ED7 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryName = "iPhone Applications";
+		};
+	};
+	853880AE0F12F9E0007C3ED7 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	853880B30F12FA8A007C3ED7 /* Input sim */ = {
+		activeExec = 0;
+	};
+	853880B70F12FA9C007C3ED7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 853880B80F12FA9C007C3ED7;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	853880B80F12FA9C007C3ED7 = {
+		isa = PBXFileReference;
+		lastKnownFileType = folder;
+		sourceTree = "<group>";
+	};
+	853880BD0F12FAED007C3ED7 /* Input dev */ = {
+		activeExec = 0;
+	};
+	853880CC0F12FC4B007C3ED7 /* Build ALL */ = {
+		activeExec = 0;
+	};
+	853880F90F130077007C3ED7 /* HPTInput_Engine.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {997, 420}}";
+			sepNavSelRange = "{198, 0}";
+			sepNavVisRange = "{3, 649}";
+			sepNavWindowFrame = "{{15, 53}, {750, 720}}";
+		};
+	};
+	853880FC0F1300CE007C3ED7 /* Input_Engine.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {997, 896}}";
+			sepNavSelRange = "{841, 0}";
+			sepNavVisRange = "{642, 617}";
+			sepNavWindowFrame = "{{15, 53}, {750, 720}}";
+		};
+	};
+	853880FD0F1300CE007C3ED7 /* Input_Engine.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {997, 896}}";
+			sepNavSelRange = "{249, 29}";
+			sepNavVisRange = "{100, 532}";
+			sepNavWindowFrame = "{{15, 53}, {750, 720}}";
+		};
+	};
+	8538811E0F130176007C3ED7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8538811F0F130176007C3ED7 /* HPT_Input_Engine.h */;
+		name = "HPT_Input_Engine.h: 1";
+		rLen = 3736;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 701;
+		vrLoc = 0;
+	};
+	8538811F0F130176007C3ED7 /* HPT_Input_Engine.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = HPT_Input_Engine.h;
+		path = "/Users/shoerob/Documents/Source/Blade of Betrayal/BoB-Zodiak/HPT Engines - Zodiak Edition/HPT Input/HPT_Input_Engine.h";
+		sourceTree = "<absolute>";
+	};
+	853881210F130176007C3ED7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 853881220F130176007C3ED7 /* input_engine.h */;
+		name = "input_engine.h: 18";
+		rLen = 0;
+		rLoc = 331;
+		rType = 0;
+		vrLen = 640;
+		vrLoc = 123;
+	};
+	853881220F130176007C3ED7 /* input_engine.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = input_engine.h;
+		path = "/Users/shoerob/Documents/Source/Blade of Betrayal/BoB-Zodiak/HPT Engines - Zodiak Edition/HPT Input/input_engine.h";
+		sourceTree = "<absolute>";
+	};
+	8538812F0F130176007C3ED7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 853880FD0F1300CE007C3ED7 /* Input_Engine.mm */;
+		name = "Input_Engine.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 173;
+		vrLoc = 0;
+	};
+	8538813C0F1301BA007C3ED7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Input_Prefix.pch */;
+		name = "Input_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 179;
+		vrLoc = 0;
+	};
+	853881980F130AAC007C3ED7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 853881990F130AAC007C3ED7 /* input_engine.cpp */;
+		name = "input_engine.cpp: 1";
+		rLen = 9329;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 638;
+		vrLoc = 8691;
+	};
+	853881990F130AAC007C3ED7 /* input_engine.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = input_engine.cpp;
+		path = "/Users/shoerob/Documents/Source/Blade of Betrayal/BoB-Zodiak/HPT Engines - Zodiak Edition/HPT Input/input_engine.cpp";
+		sourceTree = "<absolute>";
+	};
+	8538819B0F130AAC007C3ED7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8538819C0F130AAC007C3ED7 /* Game.cpp */;
+		name = "Game.cpp: 884";
+		rLen = 12;
+		rLoc = 22050;
+		rType = 0;
+		vrLen = 680;
+		vrLoc = 21481;
+	};
+	8538819C0F130AAC007C3ED7 /* Game.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = Game.cpp;
+		path = "/Users/shoerob/Documents/Source/Blade of Betrayal/BoB-Zodiak/Blade of Betrayal - Zodiak Edition/BoB/Game.cpp";
+		sourceTree = "<absolute>";
+	};
+	85A5261E0F1329360073A6DC /* NSObjCRuntime.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSObjCRuntime.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h;
+		sourceTree = "<absolute>";
+	};
+	85A5266C0F13BBC20073A6DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85A5261E0F1329360073A6DC /* NSObjCRuntime.h */;
+		name = "NSObjCRuntime.h: 120";
+		rLen = 27;
+		rLoc = 3729;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 0;
+	};
+	85A5266D0F13BBC20073A6DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Input_Prefix.pch */;
+		name = "Input_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 179;
+		vrLoc = 0;
+	};
+	85A526730F13BBC20073A6DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 853880FC0F1300CE007C3ED7 /* Input_Engine.h */;
+		name = "Input_Engine.h: 17";
+		rLen = 0;
+		rLoc = 895;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 116;
+	};
+	85A526A00F13BBC20073A6DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85A5261E0F1329360073A6DC /* NSObjCRuntime.h */;
+		name = "NSObjCRuntime.h: 120";
+		rLen = 27;
+		rLoc = 3729;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 0;
+	};
+	85A527C40F13E9980073A6DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85A527C50F13E9980073A6DC /* input_engine.h */;
+		name = "input_engine.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 179;
+	};
+	85A527C50F13E9980073A6DC /* input_engine.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = input_engine.h;
+		path = "/Users/shoerob/Documents/Source/Blade of Betrayal/BoB-PocketPC/HPT Engines/HPT Input/input_engine.h";
+		sourceTree = "<absolute>";
+	};
+	85A527C60F13E9980073A6DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85A527C70F13E9980073A6DC /* HPTInput_Engine.h */;
+		name = "HPTInput_Engine.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 811;
+		vrLoc = 910;
+	};
+	85A527C70F13E9980073A6DC /* HPTInput_Engine.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = HPTInput_Engine.h;
+		path = "/Users/shoerob/Documents/Source/Blade of Betrayal/BoB-PocketPC/HPT Engines/HPT Input/HPTInput_Engine.h";
+		sourceTree = "<absolute>";
+	};
+	85A527DB0F13E9980073A6DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85A527DC0F13E9980073A6DC /* HPTInput_Engine.h */;
+		name = "HPTInput_Engine.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 520;
+		vrLoc = 527;
+	};
+	85A527DC0F13E9980073A6DC /* HPTInput_Engine.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = HPTInput_Engine.h;
+		path = "/Users/shoerob/Documents/Source/Blade of Betrayal/BoB-Zodiak/HPT Engines - Zodiak Edition/HPT Input/HPTInput_Engine.h";
+		sourceTree = "<absolute>";
+	};
+	85A527DE0F13E9980073A6DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85A527DF0F13E9980073A6DC /* input_engine.h */;
+		name = "input_engine.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 179;
+	};
+	85A527DF0F13E9980073A6DC /* input_engine.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = input_engine.h;
+		path = "/Users/shoerob/Documents/Source/Blade of Betrayal/BoB-PocketPC/HPT Engines/HPT Input/input_engine.h";
+		sourceTree = "<absolute>";
+	};
+	85A527E00F13E9980073A6DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85A527E10F13E9980073A6DC /* HPTInput_Engine.h */;
+		name = "HPTInput_Engine.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 811;
+		vrLoc = 910;
+	};
+	85A527E10F13E9980073A6DC /* HPTInput_Engine.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = HPTInput_Engine.h;
+		path = "/Users/shoerob/Documents/Source/Blade of Betrayal/BoB-PocketPC/HPT Engines/HPT Input/HPTInput_Engine.h";
+		sourceTree = "<absolute>";
+	};
+	85A527E20F13E9980073A6DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85A527E30F13E9980073A6DC /* input_engine.cpp */;
+		name = "input_engine.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 8795;
+	};
+	85A527E30F13E9980073A6DC /* input_engine.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = input_engine.cpp;
+		path = "/Users/shoerob/Documents/Source/Blade of Betrayal/BoB-PocketPC/HPT Engines/HPT Input/input_engine.cpp";
+		sourceTree = "<absolute>";
+	};
+	85A528000F13EE4F0073A6DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85A528010F13EE4F0073A6DC /* Game.cpp */;
+		name = "Game.cpp: 912";
+		rLen = 8;
+		rLoc = 22051;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 27714;
+	};
+	85A528010F13EE4F0073A6DC /* Game.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = Game.cpp;
+		path = "/Users/shoerob/Documents/Source/Blade of Betrayal/BoB-PocketPC/Blade of Betrayal/BoB/Game.cpp";
+		sourceTree = "<absolute>";
+	};
+	85A528060F13EE4F0073A6DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85A528070F13EE4F0073A6DC /* Game.cpp */;
+		name = "Game.cpp: 912";
+		rLen = 8;
+		rLoc = 22051;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 27714;
+	};
+	85A528070F13EE4F0073A6DC /* Game.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = Game.cpp;
+		path = "/Users/shoerob/Documents/Source/Blade of Betrayal/BoB-PocketPC/Blade of Betrayal/BoB/Game.cpp";
+		sourceTree = "<absolute>";
+	};
+	85A528320F13F8040073A6DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85A527E30F13E9980073A6DC /* input_engine.cpp */;
+		name = "input_engine.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 794;
+		vrLoc = 0;
+	};
+	85A528880F13F9BB0073A6DC /* Input */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Input;
+		sourceDirectories = (
+		);
+	};
+	85A52C470F143A5B0073A6DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85A527DC0F13E9980073A6DC /* HPTInput_Engine.h */;
+		name = "HPTInput_Engine.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 836;
+		vrLoc = 1016;
+	};
+	85A52C480F143A5B0073A6DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 853881220F130176007C3ED7 /* input_engine.h */;
+		name = "input_engine.h: 36";
+		rLen = 0;
+		rLoc = 676;
+		rType = 0;
+		vrLen = 622;
+		vrLoc = 145;
+	};
+	85B87FC00F2558DA00DC59F8 /* Input_Object.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {997, 399}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 145}";
+		};
+	};
+	85B87FC70F2558EC00DC59F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 850B853D0F1711CD00A7CD4E /* Theater.cpp */;
+		name = "Theater.cpp: 59";
+		rLen = 19;
+		rLoc = 1836;
+		rType = 0;
+		vrLen = 776;
+		vrLoc = 1620;
+	};
+	85B87FC80F2558EC00DC59F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85B87FC00F2558DA00DC59F8 /* Input_Object.h */;
+		name = "Input_Object.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 145;
+		vrLoc = 0;
+	};
+	85B87FC90F2558EC00DC59F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 853880FC0F1300CE007C3ED7 /* Input_Engine.h */;
+		name = "Input_Engine.h: 43";
+		rLen = 0;
+		rLoc = 841;
+		rType = 0;
+		vrLen = 649;
+		vrLoc = 0;
+	};
+	85B87FCA0F2558EC00DC59F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 850B853D0F1711CD00A7CD4E /* Theater.cpp */;
+		name = "Theater.cpp: 59";
+		rLen = 19;
+		rLoc = 1836;
+		rType = 0;
+		vrLen = 776;
+		vrLoc = 1620;
+	};
+	85B87FCB0F2558EC00DC59F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85B87FC00F2558DA00DC59F8 /* Input_Object.h */;
+		name = "Input_Object.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 145;
+		vrLoc = 0;
+	};
+	85B87FCC0F2558EC00DC59F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 853880FC0F1300CE007C3ED7 /* Input_Engine.h */;
+		name = "Input_Engine.h: 43";
+		rLen = 0;
+		rLoc = 841;
+		rType = 0;
+		vrLen = 617;
+		vrLoc = 642;
+	};
+}
